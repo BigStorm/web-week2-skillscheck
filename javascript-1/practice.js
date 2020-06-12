@@ -55,7 +55,7 @@ function oddChecker(num) {
 // const name = 'Lucas'
 // let love = 'pizza'
 
-function iLove(name, love){
+function iLove(name, love) {
 	return name + ' loves ' + love
 }
 
@@ -77,7 +77,7 @@ colorCopy.push('blue')
 // Create a new array called 'middleNums' from the numbers array that will capture only the middle numbers (2, 3, 4).
 const numbers = [1, 2, 3, 4, 5]
 
-let middleNums = numbers.slice(1,4)
+let middleNums = numbers.slice(1, 4)
 
 //////////////////PROBLEM 11////////////////////
 
@@ -87,22 +87,26 @@ let me = {
 	firstName: 'Lucas',
 	state: 'Texas',
 	age: 26,
-	greeter: 'Hello! my name is ' + firstName + ' and I live in ' + state
+	// greeter:'Hello! my name is ' + firstName + ' and I live in ' + state
 };
 
 //////////////////PROBLEM 12////////////////////
 
 // Create a function called 'bigOrSmall' that takes in one parameter, 'arr', which will be an array of numbers. Inside of the bigOrSmall function, create a new array called 'answers'. Then, loop over the passed in arr parameter, and check to see if the number in the array is GREATER than 100. If it is, push 'big' as a string to the answers array. If the number is LESS than or EQUAL to 100, push 'small' as a string to the answers array. Return the answers array inside of the function.
 
-function bigOrSmall(arr){
+function bigOrSmall(arr) {
 	let answers = []
-}	
+
+	if
+}
 
 //////////////////PROBLEM 13////////////////////
 
 // Create a function called 'arrayReverser' that takes in one parameter, 'arr'. Inside of arrayReverser, create an empty array called 'reversed'. Using a for loop, loop over the passed in array IN REVERSE (this means your counter should decrement), and then add each item to the 'reversed' array variable you created. Finally, return the 'reversed' array variable. 
 
-//Code Here
+function arrayReverser(arr){
+	let reversed = []
+}
 
 //////////////////PROBLEM 14 - 18 Setup////////////////////
 
